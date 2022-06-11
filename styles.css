@@ -86,10 +86,11 @@ code {
 }
 
 @media only screen and (max-width: 815px) {
-    #navbar ul{
+    #navbar ul {
         border: 1px solid;
         height: 200px;
     }
+
     #navbar {
         background-color: #FBD7CC;
         position: absolute;
@@ -100,11 +101,27 @@ code {
         max-height: 250px;
         border: none;
         z-index: 1;
-        border-bottom: 2px solid;
+        
     }
-    #main-doc{
+
+    #main-doc {
         position: relative;
         margin-left: 0px;
         margin-top: 250px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #main-doc {
+        margin-left: -10px;
+    }
+
+    code {
+        margin-left: -20px;
+        width: 100%;
+        padding: 15px;
+        padding-left: 10px;
+        padding-right: 45px;
+        min-width: 230px;
     }
 }
