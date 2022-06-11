@@ -38,7 +38,7 @@ header {
     overflow-x: hidden;
 }
 
-#navbar li{
+#navbar li {
     color: #051E19;
     border-top: 1px solid;
     list-style: none;
@@ -46,7 +46,7 @@ header {
     width: 100%;
 }
 
-#navbar a{
+#navbar a {
     display: block;
     padding: 10px 30px;
     color: #08332aee;
@@ -54,7 +54,7 @@ header {
     cursor: pointer;
 }
 
-#main-doc{
+#main-doc {
     position: absolute;
     margin-left: 320px;
     padding: 20px;
@@ -67,4 +67,20 @@ section article {
     font-size: 0.98em;
 }
 
-s
+section li {
+    margin: 16px 0 0 21px;
+}
+
+code {
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #edb3a1;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+}
